@@ -14,6 +14,7 @@
     <StrideFrameworkAndroid>net6.0-android</StrideFrameworkAndroid>
     <StrideFrameworkiOS>net6.0-ios</StrideFrameworkiOS>
     <StrideFrameworkUWP>uap10.0.16299</StrideFrameworkUWP>
+    <StrideFrameworkOSX>net6.0-osx</StrideFrameworkOSX>
 
     <!-- Default values -->
     <StridePlatformOriginal>$(StridePlatform)</StridePlatformOriginal>

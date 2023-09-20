@@ -2,6 +2,8 @@
   <PropertyGroup>
     <StrideRuntime>true</StrideRuntime>
     <StrideGraphicsApiDependent>true</StrideGraphicsApiDependent>
+    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks />
   </PropertyGroup>
   <Import Project="..\..\targets\Stride.props" />
   <PropertyGroup>

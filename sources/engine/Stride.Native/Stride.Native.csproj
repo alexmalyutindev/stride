@@ -19,9 +19,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\core\Stride.Core.Mathematics\Stride.Core.Mathematics.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Stride.Native.Libs.targets">
       <SubType>Designer</SubType>
     </None>
@@ -31,6 +28,10 @@
     <None Include="Sprite\SpriteBatchNative.c" />
     <None Include="DirectInput\XInputChecker.cpp" />
     <None Include="Lightprobes\predicates.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\Stride.Core.Mathematics\Stride.Core.Mathematics.csproj" />
+    <ProjectReference Include="..\..\core\Stride.Core\Stride.Core.csproj" />
   </ItemGroup>
   <Import Project="$(StrideSdkTargets)" />
 </Project>

@@ -4,6 +4,8 @@
     <StrideRuntimeWindowsNet6>true</StrideRuntimeWindowsNet6>
     <StrideGraphicsApiDependent>true</StrideGraphicsApiDependent>
     <UseWindowsForms Condition="$(StrideUI.Contains('WINFORMS')) OR $(StrideUI.Contains('WPF'))">true</UseWindowsForms>
+    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks />
   </PropertyGroup>
   <Import Project="..\..\targets\Stride.props" />
   <PropertyGroup>

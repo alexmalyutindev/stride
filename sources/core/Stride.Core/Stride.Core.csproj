@@ -1,6 +1,8 @@
 <Project>
   <PropertyGroup>
     <StrideRuntime>true</StrideRuntime>
+    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks />
   </PropertyGroup>
   <Import Project="..\..\targets\Stride.Core.props" />
   
