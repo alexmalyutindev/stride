@@ -3,6 +3,7 @@
   <PropertyGroup>
     <StrideRuntime>true</StrideRuntime>
     <StrideRuntimeNetStandardNoRuntimeIdentifiers>true</StrideRuntimeNetStandardNoRuntimeIdentifiers>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <Import Project="..\..\targets\Stride.props" />

@@ -4,7 +4,7 @@
     <StrideRuntimeWindowsNet6>true</StrideRuntimeWindowsNet6>
     <StrideGraphicsApiDependent>true</StrideGraphicsApiDependent>
     <TargetFramework>net6.0</TargetFramework>
-    <TargetFrameworks />
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
   <Import Project="..\..\targets\Stride.props" />
   <PropertyGroup>
